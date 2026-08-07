@@ -1,24 +1,33 @@
 export const profile = {
-  name: "Aarav Mehta",
+  name: "Zakeer",
   role: "Associate Project Manager",
   location: "Bengaluru, India",
-  email: "aarav.mehta.pm@gmail.com",
-  tagline: "Turning complex roadmaps into shipped, measurable outcomes.",
+  email: "zakeer.pm@gmail.com",
+  tagline:
+    "Building Smart Infrastructure, Delivering Complex Projects, and Driving Operational Excellence.",
   summary:
-    "I coordinate cross-functional software teams across discovery, delivery and launch. Over the last four years I have run 30+ agile sprints, managed budgets up to $1.2M and kept engineering, design and stakeholders aligned on a single source of truth.",
+    "I manage infrastructure projects, campus operations, vendor coordination, facilities management, and technology-driven process improvements. I enjoy solving operational challenges through planning, execution, and data-driven decision-making.",
   resumeUrl: "/resume.pdf",
   socials: {
-    linkedin: "https://www.linkedin.com/in/aaravmehta",
-    github: "https://github.com/aaravmehta",
-    x: "https://x.com/aaravmehta",
+    linkedin: "https://www.linkedin.com/in/zakeer",
+    github: "https://github.com/zakeer",
+    x: "https://x.com/zakeer",
   },
 };
 
+export const roles = [
+  "Project Management",
+  "Infrastructure Operations",
+  "Facilities Management",
+  "Process Optimization",
+  "Technology & Data Analytics",
+];
+
 export const stats = [
-  { value: "30+", label: "Agile sprints delivered" },
-  { value: "$1.2M", label: "Program budget managed" },
-  { value: "18", label: "Cross-functional teammates" },
-  { value: "98%", label: "On-time release rate" },
+  { value: 25, suffix: "+", label: "Projects Managed", icon: "ClipboardCheck" },
+  { value: 15, suffix: "+", label: "Infrastructure Projects", icon: "Building2" },
+  { value: 30, suffix: "+", label: "Vendors Coordinated", icon: "Handshake" },
+  { value: 100, suffix: "+", label: "Teams Supported", icon: "Users" },
 ];
 
 export const experience = [
