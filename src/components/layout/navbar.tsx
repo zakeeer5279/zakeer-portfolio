@@ -52,7 +52,7 @@ export function Navbar() {
       >
         <a href="#home" className="flex min-w-0 items-center gap-2 font-semibold tracking-tight">
           <span className="grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-primary text-sm text-primary-foreground">
-            AM
+            {profile.name.slice(0, 2).toUpperCase()}
           </span>
           <span className="truncate text-sm sm:text-base">{profile.name}</span>
         </a>
