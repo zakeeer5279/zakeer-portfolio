@@ -15,7 +15,7 @@ import { SocialIcons } from "@/components/ui/social-icons";
 import { GlassCard } from "@/components/ui/glass-card";
 import { RotatingText } from "@/components/ui/rotating-text";
 import { Counter } from "@/components/ui/counter";
-import profileImage from "@/assets/profile.jpg";
+import profileAsset from "@/assets/about-profile.png.asset.json";
 
 const icons: Record<string, LucideIcon> = {
   ClipboardCheck,
