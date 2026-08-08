@@ -60,7 +60,7 @@ const howIWork = [
 const ease = [0.22, 1, 0.36, 1] as const;
 
 export function Experience() {
-  const job = experience[0];
+  const job = experience[0]!;
 
   return (
     <section id="experience" className="relative overflow-hidden px-4 py-24">
