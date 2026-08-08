@@ -241,14 +241,14 @@ export function Experience() {
 
                 {/* bottom cta */}
                 <div className="mt-10 flex flex-wrap items-center gap-3 border-t border-border/40 pt-8">
-                  <SecondaryButton href={profile.resumeUrl} download>
+                  <PrimaryButton href={profile.resumeUrl} download>
                     <Download className="h-4 w-4" aria-hidden="true" />
                     Download Resume
-                  </SecondaryButton>
-                  <PrimaryButton href="#projects">
+                  </PrimaryButton>
+                  <SecondaryButton href="#projects">
                     View Projects
                     <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                  </PrimaryButton>
+                  </SecondaryButton>
                 </div>
               </GlassCard>
             </div>
