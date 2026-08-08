@@ -57,14 +57,21 @@ function HeroVisual() {
         <span className="absolute bottom-2 right-6 h-2 w-2 rounded-full bg-accent shadow-[0_0_16px_4px_color-mix(in_oklab,var(--accent)_60%,transparent)]" />
       </motion.div>
 
+      {/* blue glow behind profile */}
+      <div
+        className="pointer-events-none absolute inset-[18%] rounded-full bg-primary/30 blur-[50px]"
+        aria-hidden="true"
+      />
+
       {/* profile frame */}
       <motion.div
         animate={{ y: [0, -10, 0] }}
-        transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
+        whileHover={{ y: -16, scale: 1.02 }}
+        transition={{ duration: 0.4, ease: "easeOut" }}
         className="absolute inset-[18%] overflow-hidden rounded-full border border-border/60 bg-card shadow-[0_30px_90px_-30px_color-mix(in_oklab,var(--primary)_55%,transparent)]"
       >
         <img
-          src={profileImage}
+          src={profileAsset.url}
           alt={`${profile.name}, ${profile.role}`}
           width={1024}
           height={1024}
