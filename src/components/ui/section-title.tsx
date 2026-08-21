@@ -16,8 +16,14 @@ export function SectionTitle({
 }) {
   return (
     <Reveal>
-      <div className={cn("max-w-2xl", align === "center" && "mx-auto text-center", className)}>
-        <span className="glass-panel inline-flex rounded-full px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-accent">
+      <div className={cn("max-w-3xl", align === "center" && "mx-auto text-center", className)}>
+        <span
+          className={cn(
+            "mono-label inline-flex items-center gap-2 rounded-sm border border-primary/40 bg-primary/10 px-2.5 py-1 text-primary",
+            align === "center" && "justify-center",
+          )}
+        >
+          <span className="h-1.5 w-1.5 bg-primary" aria-hidden="true" />
           {eyebrow}
         </span>
         <h2 className="mt-4 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
