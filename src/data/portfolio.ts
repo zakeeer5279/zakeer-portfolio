@@ -1,138 +1,187 @@
 export const profile = {
-  name: "Zakeer",
-  role: "Associate Project Manager",
-  location: "Bengaluru, India",
-  email: "zakeer.pm@gmail.com",
+  name: "Shaik Zakeer",
+  title: "Associate Project Manager | Operations & University Relations",
   tagline:
-    "Building Smart Infrastructure, Delivering Complex Projects, and Driving Operational Excellence.",
-  summary:
-    "I manage infrastructure projects, campus operations, vendor coordination, facilities management, and technology-driven process improvements. I enjoy solving operational challenges through planning, execution, and data-driven decision-making.",
+    "Three years running the operational backbone of a pan-India campus network — building the trackers, SOPs, and stakeholder rhythms that keep 32 university partnerships on schedule.",
+  phone: "+91-9959624408",
+  email: "shaikzakeer5279@gmail.com",
+  linkedin: "https://linkedin.com/in/shaik-zakeer",
+  linkedinLabel: "linkedin.com/in/shaik-zakeer",
+  location: "Hyderabad, Telangana",
   resumeUrl: "/resume.pdf",
-  socials: {
-    linkedin: "https://www.linkedin.com/in/zakeer",
-    github: "https://github.com/zakeer",
-    x: "https://x.com/zakeer",
-  },
 };
 
-export const roles = [
-  "Project Management",
-  "Infrastructure Operations",
-  "Facilities Management",
-  "Process Optimization",
-  "Technology & Data Analytics",
-];
+export const summary =
+  "Results-driven Associate Project Manager with 3+ years of progressive experience in campus operations, university partnership management, and cross-functional coordination. Proven ability to oversee pan-India operations across 32 universities, maintain multi-site infrastructure trackers, and drive timely stakeholder follow-ups. Adept at bridging operational execution with strategic project planning, with a strong foundation in software testing and data-driven problem-solving.";
 
 export const stats = [
-  { value: 25, suffix: "+", label: "Projects Managed", icon: "ClipboardCheck" },
-  { value: 15, suffix: "+", label: "Infrastructure Projects", icon: "Building2" },
-  { value: 30, suffix: "+", label: "Vendors Coordinated", icon: "Handshake" },
-  { value: 100, suffix: "+", label: "Teams Supported", icon: "Users" },
+  { value: 32, suffix: "", label: "University campuses managed" },
+  { value: 95, suffix: "%+", label: "Closure rate on open actions" },
+  { value: 3, suffix: "+", label: "Years in operations & PM" },
+  { value: 29, suffix: "+", label: "Issue categories tracked live" },
+];
+
+export const navLinks = [
+  { label: "Summary", href: "#summary" },
+  { label: "Experience", href: "#experience" },
+  { label: "Skills", href: "#skills" },
+  { label: "Projects", href: "#projects" },
+  { label: "Education", href: "#education" },
+  { label: "Achievements", href: "#achievements" },
+  { label: "Contact", href: "#contact" },
 ];
 
 export const experience = [
   {
-    company: "NIAT",
     role: "Associate Project Manager",
-    department: "University Partnership & Operations",
-    status: "Current",
-    period: "Current",
+    org: "NxtWave (NIAT)",
+    location: "Pan-India",
+    period: "JAN 2024 – PRESENT",
+    current: true,
+    points: [
+      "Managed end-to-end campus operations and project delivery across 32 university partner campuses under the NIAT network, ensuring operational continuity and quality standards.",
+      "Built and maintained comprehensive infrastructure trackers for all 32 universities covering classroom status, infra issues, maintenance schedules, and resolution timelines across a consolidated Google Sheets master tracker.",
+      "Developed and deployed an interactive HTML-based pre-visit checklist and classroom issues dashboard, enabling real-time visibility into 29+ issue categories across campuses.",
+      "Established and nurtured strategic relationships with 32 university administration teams, serving as the primary point of contact for partnership coordination, campus readiness, and compliance.",
+      "Drove cross-functional follow-ups with internal teams including Tech, Operations, HR, and Facilities to ensure timely resolution of campus-level issues and project milestones.",
+      "Coordinated with university stakeholders on infrastructure improvements, space planning, and capacity management, including seat count monitoring across partner institutions.",
+      "Prepared detailed project status reports, issue logs, and resolution dashboards for senior management, maintaining 95%+ closure rates on open action items.",
+      "Spearheaded the onboarding process for new university partners, creating standardized documentation, SOPs, and onboarding checklists adopted across the NIAT network.",
+      "Monitored SLA adherence for vendor and university deliverables, proactively escalating risks and bottlenecks to ensure on-time project execution.",
+      "Managed SharePoint-based document repositories and project tracking systems, ensuring data accuracy and accessibility for distributed teams.",
+    ],
+  },
+  {
+    role: "Software Tester Intern",
+    org: "Moolyead",
     location: "India",
-    description:
-      "I work closely with the University Partnership and Operations teams to coordinate and execute university-related initiatives. My role involves working with university stakeholders and internal NxtWave stakeholders to ensure projects and operational requirements are planned, coordinated, and delivered effectively while maintaining budget requirements.",
-    responsibilities: [
-      "Coordinate with university stakeholders and NxtWave stakeholders.",
-      "Support university partnership initiatives and operational activities.",
-      "Coordinate project requirements across internal and external stakeholders.",
-      "Track project progress, timelines, and deliverables.",
-      "Coordinate vendors and service partners when required.",
-      "Support budget planning and ensure activities are executed within approved budgets.",
-      "Monitor operational requirements and resolve execution challenges.",
-      "Coordinate cross-functional teams to ensure smooth project delivery.",
-      "Prepare progress updates, reports, and status communications.",
-      "Support planning, execution, and completion of university infrastructure and operational initiatives.",
-      "Identify operational issues and coordinate with relevant teams for timely resolution.",
+    period: "JUN 2024 – JUL 2024",
+    current: false,
+    points: [
+      "Executed 30+ functional and non-functional test cases across multiple modules, achieving a 95% test case pass rate before release.",
+      "Identified and documented 15+ critical and minor bugs, reducing QA turnaround time by 20%.",
+      "Collaborated with 5+ developers to resolve defects; utilized JIRA for bug tracking and Selenium for automating key test scenarios.",
+      "Streamlined test documentation processes, improving knowledge transfer and onboarding speed for future interns.",
     ],
-    strengths: [
-      "Project Coordination",
-      "University Stakeholder Management",
-      "NxtWave Stakeholder Coordination",
-      "Operations Management",
-      "Budget Monitoring",
-      "Vendor Coordination",
-      "Cross-functional Collaboration",
+  },
+];
+
+export const skillGroups = [
+  {
+    title: "Project Management",
+    skills: [
       "Project Planning",
-      "Execution Management",
-      "Progress Tracking",
-      "Problem Solving",
-      "Communication",
+      "Stakeholder Management",
+      "Risk Management",
+      "SLA Monitoring",
+      "Cross-functional Coordination",
+      "SOPs",
     ],
-    impactAreas: [
-      "University Partnerships",
-      "Operations",
-      "Infrastructure Projects",
-      "Stakeholder Coordination",
-      "Budget Management",
-      "Project Delivery",
+  },
+  {
+    title: "Operations",
+    skills: [
+      "Campus Operations",
+      "University Relations",
+      "Vendor Management",
+      "Facility Management",
+      "Budget & Cost Optimization",
+    ],
+  },
+  {
+    title: "Tools & Platforms",
+    skills: [
+      "Google Sheets",
+      "SharePoint",
+      "JIRA",
+      "Selenium",
+      "HTML/CSS Dashboard Development",
+      "MS Office Suite",
+    ],
+  },
+  {
+    title: "Technical",
+    skills: [
+      "Python",
+      "SQL",
+      "MySQL",
+      "SQLite",
+      "Data Structures",
+      "OOP",
+      "Git",
+      "GitHub",
+      "Claude AI",
+      "Lovable",
+      "Grok AI",
+      "n8n (Automation)",
+    ],
+  },
+  {
+    title: "Soft Skills",
+    skills: [
+      "Leadership",
+      "Communication",
+      "Problem-Solving",
+      "Negotiation",
+      "Team Coordination",
+      "Attention to Detail",
     ],
   },
 ];
 
 export const projects = [
   {
-    title: "Freight Visibility Platform",
-    summary:
-      "Led delivery of a real-time shipment tracking product from discovery to GA across six releases.",
-    impact: "Reduced customer support tickets by 41% in the first quarter after launch.",
-    tags: ["Agile", "Stakeholder Mgmt", "Release Planning"],
+    title: "CDU Infrastructure Projects & Budget Finalization",
+    badge: "Rs. 1.60 Crore",
+    subtitle: "Chaitanya Deemed to be University & NIAT Management Stakeholders",
+    points: [
+      "Led end-to-end infrastructure project planning and budget finalization in coordination with Chaitanya Deemed to be University management and NIAT leadership stakeholders.",
+      "Finalized vendor selection and managed complete vendor coordination, driving the project from scoping through final delivery.",
+    ],
   },
   {
-    title: "PMO Reporting Overhaul",
-    summary:
-      "Replaced spreadsheet status reporting with a single dashboard covering scope, risk and burn.",
-    impact: "Saved roughly 20 hours of manual reporting per month across five squads.",
-    tags: ["Process Design", "Analytics", "Change Mgmt"],
+    title: "Aurora Campus Infrastructure Project",
+    badge: "Rs. 1.78 Crore",
+    subtitle: "Multi-Vendor Project Planning & Delivery",
+    points: [
+      "Directed vendor finalization and detailed scoping across multiple vendors for a Rs. 1.78 crore campus infrastructure project.",
+      "Built and managed project timelines, resolving execution issues quickly to keep delivery on track.",
+      "Prepared and circulated budget approval communications, coordinating end-to-end project delivery within agreed timelines.",
+    ],
   },
   {
-    title: "Enterprise Onboarding Program",
-    summary:
-      "Ran a multi-vendor onboarding program for a Fortune 500 client with strict compliance gates.",
-    impact: "Delivered two weeks ahead of the contractual milestone with no critical defects.",
-    tags: ["Program Mgmt", "Risk", "Compliance"],
+    title: "Multi-University Infrastructure Coordination",
+    badge: "3 Universities",
+    subtitle: "NSRI University, Annamacharya University, GMRIT University",
+    points: [
+      "Coordinated infrastructure and operational requirements across NSRI University, Annamacharya University, and GMRIT University as part of the pan-India campus network.",
+    ],
   },
   {
-    title: "Sprint Health Framework",
-    summary:
-      "Designed a lightweight scorecard for predictability, quality and team load, reviewed monthly.",
-    impact: "Improved sprint commitment accuracy from 68% to 91% over two quarters.",
-    tags: ["Scrum", "Metrics", "Coaching"],
+    title: "NIAT University Infrastructure Dashboard",
+    badge: "32 Partners",
+    subtitle: "Tech Stack: HTML, CSS, JavaScript, Google Sheets",
+    points: [
+      "Built an interactive HTML-based tracker consolidating data for 32 university partners with infra status badges, SharePoint links, PM details, seat counts, and issue remarks.",
+      "Implemented localStorage persistence, CSV/JSON export, and mobile-friendly UI for CRM embedding.",
+    ],
   },
 ];
 
-export const skillGroups = [
-  {
-    title: "Delivery",
-    skills: ["Agile & Scrum", "Kanban", "Release Planning", "Roadmapping", "Risk & RAID"],
-  },
-  {
-    title: "Tools",
-    skills: ["Jira", "Confluence", "Linear", "Asana", "Notion", "Looker Studio"],
-  },
-  {
-    title: "Business",
-    skills: ["Stakeholder Management", "Budgeting", "Vendor Management", "Requirements Analysis"],
-  },
-  {
-    title: "Ways of working",
-    skills: ["Async Communication", "Facilitation", "Documentation", "Team Coaching"],
-  },
+export const education = {
+  degree: "Bachelor of Computer Applications (BCA)",
+  school: "Chaitanya Deemed to Be University, India",
+  period: "SEP 2022 – APR 2025",
+  points: ["Graduated with 92% aggregate — consistently among top performers in the batch."],
+};
+
+export const achievements = [
+  "Received a paid internship offer from Moolyead, gaining hands-on exposure to real-world software QA projects.",
+  "Captain of the College Volleyball Team for two consecutive years, leading the team in inter-college competitions.",
+  "Spearheaded a Rs. 10,000+ fundraising initiative for Sai Seva Trust, coordinating donors, volunteers, and outreach activities.",
+  "Organized a large-scale student event in Warangal, managing event planning, budgeting, logistics, and team coordination.",
+  "Served as HR Club President, successfully leading and organizing an industrial visit by coordinating with industry professionals.",
+  "Awarded the Greater Leadership Award by NxtWave, recognizing exceptional leadership in managing pan-India campus operations and university partnerships across the NIAT network.",
 ];
 
-export const navLinks = [
-  { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
-  { label: "Experience", href: "#experience" },
-  { label: "Projects", href: "#projects" },
-  { label: "Skills", href: "#skills" },
-  { label: "Contact", href: "#contact" },
-];
+export const interests = ["Photography & Video Editing", "Reading", "Gaming", "Event Planning"];
